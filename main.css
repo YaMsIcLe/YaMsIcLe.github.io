@@ -1,7 +1,103 @@
 body{
  background-color: lightpink;
 font-family: "Comic Sans MS", cursive, sans-serif;
-font-size: larger
+}
+div.title{
+border-style: solid;
+border-width: 1px;
+padding: 5px;
+margin:0 auto;
+width: 300;
 
 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.general-blocks{
+    height: 300 px;
+    width: 300 px;
+}
+div.Block-1{
+border: 0 auto;
+width: 100px;
+height: 100px ;
+background-color: blue;
+margin: 0px;
+float: left;
+}
+div.Block-2{
+    border: 0 auto;
+    width: 100px;
+    height: 100px ;
+    background-color: red;
+    margin: 0px;
+    float: left;
+}
+div.Block-3{
+    border: 0 auto;
+    width: 100px;
+    height: 100px ;
+    background-color: green;
+    margin: 0px;
+    float: left;
+}
+div.Block-4{
+    border: 0 auto;
+    width: 100px;
+    height: 100px ;
+    background-color: yellow;
+    margin: 0px;
+    float: left;
+}
+div.Block-5{
+    border: 0 auto;
+    width: 100px;
+    height: 100px ;
+    background-color: purple;
+    margin: 0px;
+    float: left;
+}
+div.Block-6{
+    border: 0 auto;
+    width: 100px;
+    height: 100px ;
+    background-color: orange;
+    margin: 0px;
+    float: left;
+}
+div.Block-7{
+    border: 0 auto;
+    width: 100px;
+    height: 100px ;
+    background-color: white;
+    margin: 0px;
+    float: left;
+}
+div.Block-8{
+    border: 0 auto;
+    width: 100px;
+    height: 100px ;
+    background-color: black;
+    margin: 0px;
+    float: left;
+}
+div.Block-9{
+    border: 0 auto;
+    width: 100px;
+    height: 100px ;
+    background-color:brown ;
+    margin: 0px;
+    float: left;
 }
