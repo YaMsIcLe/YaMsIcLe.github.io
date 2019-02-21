@@ -1,15 +1,15 @@
 body{
- background-color: rgb(191, 237, 255);
-font-family: "Comic Sans MS", cursive, sans-serif;
+ background-color: rgb(167, 167, 167);
+font-family:'Oswald', sans-serif;;
 }
 div.title{
-border-style: solid;
-border-width: 5px;
-padding: 5px;
+border-style: solid ;
+border-width: 2px;
+padding: 10px;
 margin:0 auto;
-width: 300;
+width: 0 auto;
 background-color: aliceblue;
-border-color: red;
+font-family: 'Lato', sans-serif;
 
 
 
@@ -29,8 +29,8 @@ border-color: red;
 
 
 div.general-blocks{
-    height: 300 px;
-    width: 300 px;
+    height: 300px;
+    width: 300px;
 }
 div.Block-1{
 border: 0 auto;
