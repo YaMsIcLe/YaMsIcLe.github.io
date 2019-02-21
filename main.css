@@ -11,96 +11,53 @@ width: 0 auto;
 background-color: aliceblue;
 font-family: 'Lato', sans-serif;
 
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
 div.general-blocks{
     height: 300px;
     width: 300px;
+    
 }
-div.Block-1{
-border: 0 auto;
-width: 100px;
-height: 100px ;
-background-color: blue;
-margin: 0px;
-float: left;
-}
-div.Block-2{
-    border: 0 auto;
+div.Block{
+    border: auto;
     width: 100px;
-    height: 100px ;
+    height: 100px;
+    margin: 0px;
+    
+}
+div.Red{ 
     background-color: red;
-    margin: 0px;
+    float: left;
+    
+}
+div.Blue{
+    background-color: blue;
     float: left;
 }
-div.Block-3{
-    border: 0 auto;
-    width: 100px;
-    height: 100px ;
+div.Green{
     background-color: green;
-    margin: 0px;
+    float: left; 
+}
+div.Yellow{
+    background-color: yellow;  
     float: left;
 }
-div.Block-4{
-    border: 0 auto;
-    width: 100px;
-    height: 100px ;
-    background-color: yellow;
-    margin: 0px;
+div.Orange{
+    background-color: orange;  
     float: left;
 }
-div.Block-5{
-    border: 0 auto;
-    width: 100px;
-    height: 100px ;
-    background-color: purple;
-    margin: 0px;
+div.Purple{
+    background-color: purple;  
     float: left;
 }
-div.Block-6{
-    border: 0 auto;
-    width: 100px;
-    height: 100px ;
-    background-color: orange;
-    margin: 0px;
+div.Brown{
+    background-color: Brown;  
     float: left;
 }
-div.Block-7{
-    border: 0 auto;
-    width: 100px;
-    height: 100px ;
-    background-color: white;
-    margin: 0px;
+div.Black{
+    background-color: Black;  
     float: left;
 }
-div.Block-8{
-    border: 0 auto;
-    width: 100px;
-    height: 100px ;
-    background-color: black;
-    margin: 0px;
-    float: left;
-}
-div.Block-9{
-    border: 0 auto;
-    width: 100px;
-    height: 100px ;
-    background-color:brown ;
-    margin: 0px;
+div.Indigo{
+    background-color: Indigo;  
     float: left;
 }
