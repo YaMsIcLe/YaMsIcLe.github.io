@@ -1,14 +1,58 @@
 console.log("memesss");
-let a = window.prompt("Give a noun");
-let b = window.prompt("Give a second noun");
-let c = window.prompt("Give a verb");
-let d = window.prompt("Give a second verb");
-let e = window.prompt("Give an adjective");
-let f = window.prompt("Give a second adjective ");
+let a = ("NOUN");
+let b = ("NOUN");
+let c = ("VERB");
+let d = ("VERB");
+let e = ("ADJECTIVE");
+let f = ("ADJECTIVE");
 console.log (a , b , c , d , e , f)
+
+
+function changeNoun(){
+let a = window.prompt('Give a noun');
 document.getElementById('nouna').innerText = a
+}
+document.getElementById('Give-a-noun').onclick = changeNoun
+
+function nounChange(){
+let b = window.prompt('Give a noun');
 document.getElementById('nounb').innerText = b
-document.getElementById('verba').innerText = c
-document.getElementById('verbb').innerText = d
-document.getElementById('adja').innerText = e
-document.getElementById('adjb').innerText = f
+}
+document.getElementById('Give-a-2noun').onclick = nounChange
+
+function changeVerb(){
+    let c = window.prompt('Give a verb');
+    document.getElementById('verba').innerText = c
+    }
+    document.getElementById('Give-a-Verb').onclick = changeVerb
+
+function verbChange(){
+        let d = window.prompt('Give a verb');
+        document.getElementById('verbb').innerText = d
+        }
+        document.getElementById('Give-a-2Verb').onclick = verbChange
+
+function changeAdj(){
+        let e = window.prompt('Give a Adjective');
+        document.getElementById('adja').innerText = e
+        }
+        document.getElementById('Give-a-Adjective').onclick = changeAdj
+        
+function adjChange(){
+        let f = window.prompt('Give a Adjective');
+                document.getElementById('adjb').innerText = f
+                }
+                document.getElementById('Give-a-2Adjective').onclick = adjChange
+
+
+    document.getElementById('nouna').innerText = a
+    document.getElementById('nounb').innerText = b
+    document.getElementById('verba').innerText = c
+    document.getElementById('verbb').innerText = d
+    document.getElementById('adja').innerText = e
+    document.getElementById('adjb').innerText = f
+
+
+    let value= 0;
+    document .getElementById('value').innerText = value;
+console.log(a,b,c,d,e,f)
