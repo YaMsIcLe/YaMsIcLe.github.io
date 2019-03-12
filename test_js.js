@@ -52,7 +52,18 @@ function adjChange(){
     document.getElementById('adja').innerText = e
     document.getElementById('adjb').innerText = f
 
+    let value = 0
 
-    let value= 0;
-    document .getElementById('value').innerText = value;
+function upValue(){
+value += 1;
+document.getElementById('number').innerText = value
+        }
+        document.getElementById('add').onclick = upValue
+
+function downValue(){
+        document.getElementById('number').innerText = value
+value -=1
+        }
+        document.getElementById('subtract').onclick = downValue
+
 console.log(a,b,c,d,e,f)
