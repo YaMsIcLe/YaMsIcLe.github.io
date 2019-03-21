@@ -1,4 +1,5 @@
-console.log("memesss");
+console.log(' I have never wanted to die so much in my life');
 
-let draw = SVG('drawing').size (300, 300)
-let rect = draw.circle(100).fill('yellow').move (20,20)
+let draw = SVG('drawing').size(600, 600);
+let rectWidth = 50
+let rectHeight = 50
