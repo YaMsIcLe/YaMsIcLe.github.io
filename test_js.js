@@ -8,24 +8,27 @@ const rowNumb = 5
 const blockNumb = 10
 const PINK = '#FFC0CB'
 const BLACK = '#000'
+const xShift = 25
+let numbBlock = 1
 
 let draw = SVG('drawing').size(canvasWidth, canvasHeight);
 
 for (let i = 0; i < rowNumb; i ++){
     let rowA = i * blockHeight;
-
+    
 
     for (let j = 0; j < blockNumb; j++){
        let blockA = j * blockWidth;
-       
+
        let rect = {
            element: draw.rect(blockWidth, blockHeight),
            color: PINK
+           
        };
 
-       rect.element.move(blockA, rowA);
+       rect.element.move(blockA + rowA, rowA);
        rect.element.stroke(BLACK);
        rect.element.fill(PINK);
-
+       
     }
 }
